@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #000915;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  /*background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #00000000, #000915;*/
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./img/bg.jpg), lightgray 50%/cover no-repeat;
+  height: 1024px;
+  background-position: center;
+}
+.top__title {
+  padding-top: 217px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 788.778px;
+  max-width: 100%;
+}
+.top__subtitle {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 481px;
+  max-width: 100%;
+  padding: 32px 0px 44px 0px;
+}
+.top__button {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 30px;
+  background: #9C0332;
+  padding: 13px 74px 13px 74px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.top__button:hover {
+  background: #EB443F;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 128px 0px 128px 0px;
+}
+
+.game {
+  width: 379px;
+  height: 300px;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  transition: all 0.3s;
+}
+.game__1 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/1.jpg), lightgray 50%/cover no-repeat;
+}
+.game__2 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/2.jpg), lightgray 50%/cover no-repeat;
+}
+.game__3 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/3.jpg), lightgray 50%/cover no-repeat;
+}
+.game:hover {
+  border: 3px solid #44D2FF;
+}
+
+.game-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
+
+.games a {
+  color: white;
+  text-decoration: none;
+}
+
+.gameOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 55px;
+  padding: 282px 0px 282px 0px;
+}
+
+.gameOne__title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 788.778px;
+  max-width: 100%;
+}
+
+.gameOne__subtitle {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 481px;
+  max-width: 100%;
+  padding: 32px 0px 44px 0px;
+}
+
+.gameOne__button {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 30px;
+  background: #9C0332;
+  padding: 13px 74px 13px 74px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  border: none;
+}
+.gameOne__button:hover {
+  background: #EB443F;
+}
+
+.gameOne > img {
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+}
+@media (min-width: 430px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 275px) and (max-width: 435px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    text-align: center;
+    height: 735px;
+  }
+  .top__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .top__subtitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    /* 157.143% */
+  }
+  .top__button {
+    text-align: center;
+  }
+  .game {
+    width: 343px;
+  }
+  .gameOne {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .gameOne__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .gameOne__subtitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .gameOne__img > img {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

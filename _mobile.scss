@@ -1,0 +1,107 @@
+// @media (max-width: 375px) {
+//     .center {
+//         padding-left: 16px;
+//         padding-right: 16px;
+//     }
+
+//     .top {
+//         text-align: center;
+//         height: 735px;
+//     }
+
+//     .top__title {
+//         color: #FFF;
+//         font-family: Montserrat;
+//         font-size: 32px;
+//         font-style: normal;
+//         font-weight: 700;
+//         line-height: normal;
+//     }
+
+//     .top__subtitle {
+//         color: #FFF;
+//         font-family: Montserrat;
+//         font-size: 14px;
+//         font-style: normal;
+//         font-weight: 300;
+//         line-height: 22px;
+//         /* 157.143% */
+//     }
+
+//     .top__button {
+//         text-align: center;
+//     }
+
+//     .game {
+//         width: 343px;
+//     }
+// }
+
+@media (min-width:275px) and (max-width:435px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        text-align: center;
+        height: 735px;
+    }
+
+    .top__title {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .top__subtitle {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+        /* 157.143% */
+    }
+
+    .top__button {
+        text-align: center;
+    }
+
+    .game {
+        width: 343px;
+    }
+
+    .gameOne {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .gameOne__title {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .gameOne__subtitle {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    .gameOne__img>img {
+
+        max-width: 100%;
+    }
+
+}
